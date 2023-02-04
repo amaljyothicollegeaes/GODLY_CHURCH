@@ -1,0 +1,124 @@
+.hero {
+    background-color: #008374;
+}
+
+/* navbar */
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.navbar-brand {
+    font-size: 30px !important;
+    margin: 0;
+    font-weight: 600 !important;
+    letter-spacing: 0.8px;
+}
+
+/* hero_section */
+
+.bg_color {
+    background-color: #008374;
+}
+
+.navbar-brand {
+    font-size: xx-large;
+    font-weight: 500;
+}
+
+.navbar-brand,
+.nav-link {
+    color: white !important;
+}
+
+.nav-link:hover {
+    color: rgb(0, 0, 0) !important;
+}
+
+.preyer_img {
+    border-radius: 40px;
+}
+
+.btn_login {
+    font-family: var(--font-primary);
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 14px 40px;
+    border-radius: 50px;
+    transition: 0.3s;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 15px rgb(0 0 0 / 8%);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.btn-live-video {
+    font-size: 16px;
+    transition: 0.5s;
+    text-align: center;
+    margin-left: 25px;
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.btn-live-video i {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 32px;
+    transition: 0.3s;
+    line-height: 0;
+    margin-right: 8px;
+}
+
+
+
+/* timing */
+
+.timing {
+    margin: 4%;
+}
+
+.bi-calendar-event {
+    color: #008374;
+}
+
+.time_mgt ul {
+    color: black;
+    font-weight: 500;
+    list-style-type: none;
+    font-size: 17px;
+    margin-bottom: 30px;
+
+}
+
+.time_mgt ul li ul {
+    font-weight: 400;
+}
+
+.section_header {
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.section_header h2 {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.section_header h2:after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #008374;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
