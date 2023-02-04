@@ -1,124 +1,112 @@
-.hero {
-    background-color: #008374;
+.page-section {
+    padding: 8rem 0;
 }
 
-/* navbar */
-
-.navbar-nav {
-    margin-left: auto;
+.text-white-75 {
+    color: rgba(255, 255, 255, 0.75) !important;
 }
 
-.navbar-brand {
-    font-size: 30px !important;
-    margin: 0;
-    font-weight: 600 !important;
-    letter-spacing: 0.8px;
+.btn-xl {
+    padding: 1.25rem 2.25rem;
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10rem;
 }
 
-/* hero_section */
-
-.bg_color {
-    background-color: #008374;
+hr.divider {
+    height: 0.2rem;
+    max-width: 3.25rem;
+    margin: 1.5rem auto;
+    background-color: #f4623a;
+    opacity: 1;
 }
 
-.navbar-brand {
-    font-size: xx-large;
-    font-weight: 500;
+hr.divider-light {
+    background-color: #fff;
 }
 
-.navbar-brand,
-.nav-link {
-    color: white !important;
-}
-
-.nav-link:hover {
-    color: rgb(0, 0, 0) !important;
-}
-
-.preyer_img {
-    border-radius: 40px;
-}
-
-.btn_login {
-    font-family: var(--font-primary);
-    font-weight: 500;
-    font-size: 15px;
-    letter-spacing: 1px;
-    display: inline-block;
-    padding: 14px 40px;
-    border-radius: 50px;
-    transition: 0.3s;
-    color: #fff;
-    background: rgba(255, 255, 255, 0.1);
-    box-shadow: 0 0 15px rgb(0 0 0 / 8%);
-    border: 2px solid rgba(255, 255, 255, 0.1);
-}
-
-.btn-live-video {
-    font-size: 16px;
-    transition: 0.5s;
-    text-align: center;
-    margin-left: 25px;
-    color: #fff;
-    font-weight: 600;
-    text-decoration: none;
-}
-
-.btn-live-video i {
-    color: rgba(255, 255, 255, 0.5);
-    font-size: 32px;
-    transition: 0.3s;
-    line-height: 0;
-    margin-right: 8px;
+#mainNav {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    background-color: #fff;
+    transition: background-color 0.2s ease;
 }
 
 
+@media (min-width: 992px) {
+    #mainNav {
+        box-shadow: none;
+        background-color: transparent;
+    }
 
-/* timing */
+    #mainNav .navbar-brand {
+        color: rgba(255, 255, 255, 0.7);
+    }
 
-.timing {
-    margin: 4%;
+    #mainNav .navbar-brand:hover {
+        color: #fff;
+    }
+
+    #mainNav .navbar-nav .nav-item .nav-link {
+        color: rgba(255, 255, 255, 0.7);
+        padding: 0 1rem;
+    }
+
+    #mainNav .navbar-nav .nav-item .nav-link:hover {
+        color: #fff;
+    }
+
+    #mainNav .navbar-nav .nav-item:last-child .nav-link {
+        padding-right: 0;
+    }
+
+    #mainNav.navbar-shrink {
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+        background-color: #fff;
+    }
+
+    #mainNav.navbar-shrink .navbar-brand {
+        color: #212529;
+    }
+
+    #mainNav.navbar-shrink .navbar-brand:hover {
+        color: #f4623a;
+    }
+
+    #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link {
+        color: #212529;
+    }
+
+    #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link:hover {
+        color: #f4623a;
+    }
 }
 
-.bi-calendar-event {
-    color: #008374;
+header.masthead {
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 4.5rem);
+    background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../img/bg_church.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
 }
 
-.time_mgt ul {
-    color: black;
-    font-weight: 500;
-    list-style-type: none;
-    font-size: 17px;
-    margin-bottom: 30px;
-
+@media (min-width: 992px) {
+    header.masthead {
+        height: 100vh;
+        min-height: 40rem;
+        padding-top: 4.5rem;
+        padding-bottom: 0;
+    }
 }
 
-.time_mgt ul li ul {
-    font-weight: 400;
-}
+/* end template */
 
-.section_header {
-    text-align: center;
-    padding-bottom: 60px;
+.service_icon{
+    width: 40%;
 }
-
-.section_header h2 {
-    font-size: 32px;
-    font-weight: 600;
-    margin-bottom: 20px;
-    padding-bottom: 20px;
-    position: relative;
-}
-
-.section_header h2:after {
-    content: "";
-    position: absolute;
-    display: block;
-    width: 50px;
-    height: 3px;
-    background: #008374;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
+.services_card{
+    cursor: pointer;
 }
