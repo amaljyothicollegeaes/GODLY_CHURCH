@@ -110,3 +110,10 @@ header.masthead {
 .services_card{
     cursor: pointer;
 }
+
+.carousel-caption {
+    padding-bottom: 3.25rem !important;
+}
+.d-none {
+    display:block!important;
+}
