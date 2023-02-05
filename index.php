@@ -10,6 +10,9 @@
     <!-- css -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css" />
+
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
@@ -90,7 +93,7 @@
                     aria-label="Slide 3"></button>
             </div>
             <div class="carousel-inner">
-              <img src="./assets/img/holy-bible.jpg" class="d-block w-100" style="height: 300px;">
+                <img src="./assets/img/holy-bible.jpg" class="d-block w-100" style="height: 300px;">
                 <div class="carousel-item active">
                     <div class="carousel-caption d-none d-md-block">
                         <h5>For I am convinced that neither death nor life, neither angels nor demons, neither the
@@ -102,7 +105,8 @@
                 </div>
                 <div class="carousel-item">
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>There is no fear in love. But perfect love drives out fear, because fear has to do with punishment. The one who fears is not made perfect in love.
+                        <h5>There is no fear in love. But perfect love drives out fear, because fear has to do with
+                            punishment. The one who fears is not made perfect in love.
 
 
                         </h5>
@@ -111,7 +115,8 @@
                 </div>
                 <div class="carousel-item">
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>Jesus looked at them and said, 'With man it is impossible, but not with God. For all things are possible with God.'
+                        <h5>Jesus looked at them and said, 'With man it is impossible, but not with God. For all things
+                            are possible with God.'
 
 
                         </h5>
@@ -131,51 +136,118 @@
             </button>
         </div>
     </section>
-    <section class="page-section bg-primary" id="about">
-        <div class="container px-4 px-lg-5">
-            <div class="row gx-4 gx-lg-5 justify-content-center">
-                <div class="col-lg-8 text-center">
-                    <h2 class="text-white mt-0">We've got what you need!</h2>
-                    <hr class="divider divider-light" />
-                    <p class="text-white-75 mb-4">Start Bootstrap has everything you need to get your new website up and
-                        running in no time! Choose one of our open source, free to download, and easy to use themes! No
-                        strings attached!</p>
-                    <a class="btn btn-light btn-xl" href="#services">Get Started!</a>
+    <section class="gallery-block grid-gallery">
+        <div class="container">
+            <div class="heading">
+                <h2>FROM THE GALLERY</h2>
+                <hr class="divider" />
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-4 item">
+                    <a class="lightbox" href="./assets/img/bg_church.jpg">
+                        <img class="img-fluid image scale-on-hover" src="./assets/img/bg_church.jpg">
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4 item">
+                    <a class="lightbox" href="./assets/img/bg_church.jpg">
+                        <img class="img-fluid image scale-on-hover" src="./assets/img/bg_church.jpg">
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4 item">
+                    <a class="lightbox" href="./assets/img/bg_church.jpg">
+                        <img class="img-fluid image scale-on-hover" src="./assets/img/bg_church.jpg">
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4 item">
+                    <a class="lightbox" href="./assets/img/bg_church.jpg">
+                        <img class="img-fluid image scale-on-hover" src="./assets/img/bg_church.jpg">
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4 item">
+                    <a class="lightbox" href="./assets/img/bg_church.jpg">
+                        <img class="img-fluid image scale-on-hover" src="./assets/img/bg_church.jpg">
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4 item">
+                    <a class="lightbox" href="./assets/img/bg_church.jpg">
+                        <img class="img-fluid image scale-on-hover" src="./assets/img/bg_church.jpg">
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4 item">
+                    <a class="lightbox" href="./assets/img/bg_church.jpg">
+                        <img class="img-fluid image scale-on-hover" src="./assets/img/bg_church.jpg">
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4 item">
+                    <a class="lightbox" href="./assets/img/bg_church.jpg">
+                        <img class="img-fluid image scale-on-hover" src="./assets/img/bg_church.jpg">
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4 item">
+                    <a class="lightbox" href="./assets/img/bg_church.jpg">
+                        <img class="img-fluid image scale-on-hover" src="./assets/img/bg_church.jpg">
+                    </a>
                 </div>
             </div>
         </div>
     </section>
-    <!-- Footer-->
-    <footer class="bg-light py-5">
-        <div class="container px-4 px-lg-5">
-            <div class="small text-center text-muted">Copyright &copy; 2023 - GODLY CHURCH</div>
+    <section class="contact_us_footer bg-secondary">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-1">
+                    <img src="./assets/img/church.png" alt="">
+                </div>
+                <div class="col-11 col-md-9">
+                    <h3>Welcome to St George Church!</h3>
+                    <h5>We are always open to people who loves to get in touch!!</h5>
+                </div>
+                <div class="col-12 col-md-2 d-grid gap-2 mx-auto">
+                    <button class="contact_us_btn btn btn-outline-light btn-lg">CONTACT US</button>
+                </div>
+            </div>
         </div>
+    </section>
+    <!-- <Footer -->
+    <footer class="bg-light text-center text-lg-start">
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2023 Copyright:
+            <a class="text-dark" href="#">godlychuch</a>
+        </div>
+        <!-- Copyright -->
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-    <script>
-    window.addEventListener('DOMContentLoaded', event => {
-        var navbarShrink = function() {
-            const navbarCollapsible = document.body.querySelector('#mainNav');
-            if (!navbarCollapsible) {
-                return;
-            }
-            if (window.scrollY === 0) {
-                navbarCollapsible.classList.remove('navbar-shrink')
-            } else {
-                navbarCollapsible.classList.add('navbar-shrink')
-            }
-        };
-        navbarShrink();
-        document.addEventListener('scroll', navbarShrink);
-        const mainNav = document.body.querySelector('#mainNav');
-        if (mainNav) {
-            new bootstrap.ScrollSpy(document.body, {
-                target: '#mainNav',
-                offset: 74,
-            });
-        };
-    });
-    </script>
 </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
+
+<!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script> -->
+<script>
+window.addEventListener('DOMContentLoaded', event => {
+    var navbarShrink = function() {
+        const navbarCollapsible = document.body.querySelector('#mainNav');
+        if (!navbarCollapsible) {
+            return;
+        }
+        if (window.scrollY === 0) {
+            navbarCollapsible.classList.remove('navbar-shrink')
+        } else {
+            navbarCollapsible.classList.add('navbar-shrink')
+        }
+    };
+    navbarShrink();
+    document.addEventListener('scroll', navbarShrink);
+    const mainNav = document.body.querySelector('#mainNav');
+    if (mainNav) {
+        new bootstrap.ScrollSpy(document.body, {
+            target: '#mainNav',
+            offset: 74,
+        });
+    };
+});
+</script>
+<script>
+baguetteBox.run('.grid-gallery', {
+    animation: 'slideIn'
+});
+</script>
 
 </html>
