@@ -63,11 +63,11 @@ hr.divider-light {
 
     #mainNav.navbar-shrink {
         box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-        background-color: #fff;
+        background-color: #03001C;
     }
 
     #mainNav.navbar-shrink .navbar-brand {
-        color: #212529;
+        color: #fff;
     }
 
     #mainNav.navbar-shrink .navbar-brand:hover {
@@ -75,7 +75,7 @@ hr.divider-light {
     }
 
     #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link {
-        color: #212529;
+        color: #fff;
     }
 
     #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link:hover {
@@ -159,7 +159,9 @@ header.masthead {
         box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.15) !important;
     }
 }
-
+.contact_us_footer{
+    background-color: #03001C;
+}
 .contact_us_footer div{
     padding-left: 20px;
     padding-top: 20px;
@@ -177,4 +179,11 @@ header.masthead {
 
 .navbar-brand img{
     width: 60px;
+}
+
+.dropdown-toggle::after {
+    display: none !important;
+}
+footer{
+    background-color: #03001C;
 }

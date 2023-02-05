@@ -1,47 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php include "header.php" ?>
 
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
-    <title>GODLY CHURCH</title>
-    <!-- css -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css" />
 
-    <link rel="stylesheet" href="./assets/css/style.css">
-</head>
-
-<body id="page-top">
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
-        <div class="container px-4 px-lg-5">
-            <a class="navbar-brand" href="#page-top"><img src="./assets/img/St-george.png" alt=""> GODLY CHURCH</a>
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
-                aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ms-auto my-2 my-lg-0">
-                    <li class="nav-item"><a class="nav-link" href="#about">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#services">About Us</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#portfolio">Holy Mass</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">History</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">Contact Us</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">Gallery</a></li>
-                </ul>
-                <ul class="navbar-nav ms-auto">
-                    <li>
-
-                        <button class="btn btn-outline-success rounded-5" type="submit">Login now</button>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <!-- Masthead-->
     <header class="masthead">
         <div class="container px-4 px-lg-5 h-100">
             <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
@@ -56,7 +15,6 @@
             </div>
         </div>
     </header>
-    <!-- Services-->
     <section class="page-section" id="services">
         <div class="container px-4 px-lg-5">
             <div class="row gx-4 gx-lg-5">
@@ -235,15 +193,15 @@
             </div>
         </div>
     </section>
-    <section class="contact_us_footer bg-secondary">
+    <section class="contact_us_footer">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-1">
+                <div class="col-12 col-lg-1 text-center">
                     <img src="./assets/img/church.png" alt="">
                 </div>
                 <div class="col-11 col-md-9">
-                    <h3>Welcome to St George Church!</h3>
-                    <h5>We are always open to people who loves to get in touch!!</h5>
+                    <h3 class="text-light">Welcome to St George Church!</h3>
+                    <h5 class="text-light">We are always open to people who loves to get in touch!!</h5>
                 </div>
                 <div class="col-12 col-md-2 d-grid gap-2 mx-auto">
                     <button class="contact_us_btn btn btn-outline-light btn-lg">CONTACT US</button>
@@ -251,47 +209,6 @@
             </div>
         </div>
     </section>
-    <!-- <Footer -->
-    <footer class="bg-light text-center text-lg-start">
-        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-            © 2023 Copyright:
-            <a class="text-dark" href="#">godlychuch</a>
-        </div>
-        <!-- Copyright -->
-    </footer>
-</body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
 
-<!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script> -->
-<script>
-window.addEventListener('DOMContentLoaded', event => {
-    var navbarShrink = function() {
-        const navbarCollapsible = document.body.querySelector('#mainNav');
-        if (!navbarCollapsible) {
-            return;
-        }
-        if (window.scrollY === 0) {
-            navbarCollapsible.classList.remove('navbar-shrink')
-        } else {
-            navbarCollapsible.classList.add('navbar-shrink')
-        }
-    };
-    navbarShrink();
-    document.addEventListener('scroll', navbarShrink);
-    const mainNav = document.body.querySelector('#mainNav');
-    if (mainNav) {
-        new bootstrap.ScrollSpy(document.body, {
-            target: '#mainNav',
-            offset: 74,
-        });
-    };
-});
-</script>
-<script>
-baguetteBox.run('.grid-gallery', {
-    animation: 'slideIn'
-});
-</script>
-
-</html>
+    
+<?php include "footer.php" ?>
