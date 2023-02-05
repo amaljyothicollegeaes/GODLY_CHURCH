@@ -19,7 +19,7 @@
 <body id="page-top">
     <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
         <div class="container px-4 px-lg-5">
-            <a class="navbar-brand" href="#page-top">GODLY CHURCH</a>
+            <a class="navbar-brand" href="#page-top"><img src="./assets/img/St-george.png" alt=""> GODLY CHURCH</a>
             <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
                 aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
@@ -31,6 +31,12 @@
                     <li class="nav-item"><a class="nav-link" href="#contact">History</a></li>
                     <li class="nav-item"><a class="nav-link" href="#contact">Contact Us</a></li>
                     <li class="nav-item"><a class="nav-link" href="#contact">Gallery</a></li>
+                </ul>
+                <ul class="navbar-nav ms-auto">
+                    <li>
+
+                        <button class="btn btn-outline-success rounded-5" type="submit">Login now</button>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -46,7 +52,6 @@
                 <div class="col-lg-8 align-self-baseline">
                     <h3 class="text-white-75 mb-5">Jesus answered, “I am the way and the truth and the life. No one
                         comes to the Father except through me<br> <b>John 14:6</b></h3>
-                    <a class="btn btn-primary btn-xl" href="#about">Find Out More</a>
                 </div>
             </div>
         </div>
@@ -136,6 +141,45 @@
             </button>
         </div>
     </section>
+
+    <section class="gallery-block grid-gallery">
+        <div class="container">
+            <div class="heading">
+                <h2>ANNOUNCEMENTS</h2>
+                <hr class="divider" />
+            </div>
+            <div class="row">
+	            <div class="col-md-6 col-lg-4">
+	                <div class="card border-0 transform-on-hover">
+	                		<img src="./assets/img/bg_church.jpg" alt="Card Image" class="card-img-top">
+	                    <div class="card-body">
+	                        <h6><a href="#">Lorem Ipsum</a></h6>
+	                        <p class="text-muted card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna.</p>
+	                    </div>
+	                </div>
+	            </div>
+	            <div class="col-md-6 col-lg-4">
+	                <div class="card border-0 transform-on-hover">
+		                	<img src="./assets/img/bg_church.jpg" alt="Card Image" class="card-img-top">
+	                    <div class="card-body">
+	                        <h6><a href="#">Lorem Ipsum</a></h6>
+	                        <p class="text-muted card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna.</p>
+	                    </div>
+	                </div>
+	            </div>
+	            <div class="col-md-6 col-lg-4">
+	                <div class="card border-0 transform-on-hover">
+	                		<img src="./assets/img/bg_church.jpg" alt="Card Image" class="card-img-top">
+	                    <div class="card-body">
+	                        <h6><a href="#">Lorem Ipsum</a></h6>
+	                        <p class="text-muted card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna.</p>
+	                    </div>
+	                </div>
+	            </div>
+	        </div>
+        </div>
+    </section>
+
     <section class="gallery-block grid-gallery">
         <div class="container">
             <div class="heading">

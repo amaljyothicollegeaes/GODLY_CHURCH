@@ -169,3 +169,12 @@ header.masthead {
 .contact_us_footer div div div img{
     width: 80px;
 }
+
+/* navbar */
+.nav_login_btn{
+    border-radius: 30px !important;
+}
+
+.navbar-brand img{
+    width: 60px;
+}
