@@ -34,6 +34,14 @@
                         </ul>
                     </li>
                     <li class="nav-item"><a class="nav-link" href="#portfolio">Holy Mass</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"aria-expanded="false">Events</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Administration</a></li>
+                            <li><a class="dropdown-item" href="#">KCYM</a></li>
+                            <li><a class="dropdown-item" href="#">Mission League</a></li>
+                        </ul>
+                    </li>
                     <li class="nav-item"><a class="nav-link" href="#contact">History</a></li>
                     <li class="nav-item"><a class="nav-link" href="#contact">Contact Us</a></li>
                     <li class="nav-item"><a class="nav-link" href="#contact">Gallery</a></li>
