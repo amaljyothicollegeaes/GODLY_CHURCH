@@ -35,39 +35,39 @@
                                             <label class="form-label" id="Errors"></label>
                                         </div>
                                     </div>
-                                    <div class="col-md-4 mb-4">
+                                    <div class="col-md-6 mb-4">
                                         <div class="form-outline">
                                             <label class="form-label" for="form3Example1">Full Name</label>
-                                            <input type="text" id="fname" name="fname" class="form-control" />
+                                            <input type="text" id="fullName" name="fname" class="form-control" />
                                             <label class="form-label error" id="f_error"></label>
                                         </div>
                                     </div>
-                                    <div class="col-md-4 mb-4">
+                                    <div class="col-md-6 mb-4">
                                         <div class="form-outline">
-                                            <label class="form-label" for="form3Example3">Email address <label
+                                            <label class="form-label" for="form3Example3">Email <label
                                                     class="form-label error" id="e_errors"></label></label>
-                                            <input type="email" id="email" name="email" class="form-control">
+                                            <input type="text" id="email" name="email" class="form-control">
                                             <label class="form-label error" id="e_error"></label>
                                         </div>
                                     </div>
-                                    <div class="col-md-4 mb-4">
-                                        <div class="form-outline">
-                                            <label class="form-label" for="form3Example3">Phone Number <label
-                                                    class="form-label error" id="e_errors"></label></label>
-                                            <input type="email" id="email" name="email" class="form-control">
-                                            <label class="form-label error" id="e_error"></label>
-                                        </div>
-                                    </div>
+                                    
                                 </div>
                                 <div class="row">
-                                    <div class="col-md-6 mb-4">
+                                <div class="col-md-4 mb-4">
+                                        <div class="form-outline">
+                                            <label class="form-label">Phone Number</label>
+                                            <input type="text" id="pwd" name="pwd" class="form-control" />
+                                            <label class="form-label error" id="p_error"></label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-4">
                                         <div class="form-outline">
                                             <label class="form-label">Password</label>
                                             <input type="password" id="pwd" name="pwd" class="form-control" />
                                             <label class="form-label error" id="p_error"></label>
                                         </div>
                                     </div>
-                                    <div class="col-md-6 mb-4">
+                                    <div class="col-md-4 mb-4">
                                         <div class="form-outline">
                                             <label class="form-label">Confirm Password</label>
                                             <input type="password" id="cpwd" name="cpwd" class="form-control" />
@@ -76,15 +76,31 @@
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-md-6 mb-4">
+                                <div class="col-md-4 mb-4">
                                         <div class="form-outline">
-                                            <label class="form-label" for="form3Example3">Ward <label
+                                            <label class="form-label" for="form3Example3">Baptism Name <label
                                                     class="form-label error" id="e_errors"></label></label>
-                                            <input type="email" id="email" name="email" class="form-control">
+                                            <input type="text" id="email" name="email" class="form-control">
                                             <label class="form-label error" id="e_error"></label>
                                         </div>
                                     </div>
-                                    <div class="col-md-6 mb-4">
+                                    <div class="col-md-4 mb-4">
+                                        <div class="form-outline">
+                                            <label class="form-label" for="form3Example3">Ward <label
+                                                    class="form-label error" id="e_errors"></label></label>
+                                            <select class="form-control" name="ward" id="ward">
+                                                <option value="1">1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                                <option value="4">4</option>
+                                                <option value="5">5</option>
+                                                <option value="6">6</option>
+                                                <option value="7">7</option>
+                                                </select>
+                                                <label class="form-label error" id="e_error"></label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-4">
                                         <div class="form-outline">
                                             <label class="form-label">Profile Pic</label>
                                             <input type="file" id="files" name="files"
@@ -113,6 +129,6 @@
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script src="./js/signup.js"></script>
+<script src="./assets/js/register.js"></script>
 
 </html>

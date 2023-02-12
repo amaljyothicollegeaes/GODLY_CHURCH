@@ -30,7 +30,7 @@
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="#">Administration</a></li>
                             <li><a class="dropdown-item" href="#">KCYM</a></li>
-                            <li><a class="dropdown-item" href="#">Mission League</a></li>
+                            <!-- <li><a class="dropdown-item" href="#">Mission League</a></li> -->
                         </ul>
                     </li>
                     <li class="nav-item"><a class="nav-link" href="#portfolio">Holy Mass</a></li>
@@ -48,7 +48,7 @@
                 <ul class="navbar-nav ms-auto">
                     <li>
 
-                        <a href="./register.php" class="btn btn-outline-success rounded-5" type="submit">Login now</a>
+                        <a href="./login.php" class="btn btn-outline-success rounded-5" type="submit">Login now</a>
                     </li>
                 </ul>
             </div>
